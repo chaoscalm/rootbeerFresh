@@ -1,5 +1,3 @@
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/cba8fd0874ac4f569f4f880e473cbac9?branch=dev)](https://www.codacy.com/app/KimChangYoun/rootbeerFresh?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KimChangYoun/rootbeerFresh&amp;utm_campaign=Badge_Grade)
-
 # Enjoy the latest Magisk and MagiskHide Detection RootBeerFresh!
 
 RootbeerFresh is an open source project that checks if your Android smartphone device is rooted.
