@@ -1,36 +1,43 @@
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cba8fd0874ac4f569f4f880e473cbac9?branch=dev)](https://www.codacy.com/app/KimChangYoun/rootbeerFresh?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KimChangYoun/rootbeerFresh&amp;utm_campaign=Badge_Grade)
-<img src="https://travis-ci.org/travis-ci/travis-web.svg?branch=master">
-<br/><br/>
-Enjoy the latest Magisk and MagiskHide Detection RootBeerFresh!!
-<br/><img src="./Magisk_UDS_Detect_UI.jpg" width="50%">
+
+# Enjoy the latest Magisk and MagiskHide Detection RootBeerFresh!
 
 RootbeerFresh is an open source project that checks if your Android smartphone device is rooted.
 
 This project is based on rootbeer open source.
+
 There are a number of well-known rooting detection technologies in place.
+
 However, we aim to detect a new rooting device with a completely different technique, completely new.
 
 So, look at the more extensive Android rooting detection project.
 
 Examples of new rooting technologies are those that are extremely difficult to detect for rooted states like Magisk.
+
 Detecting these new rooting technologies is RootbeerFresh's ultimate goal.
 
 
-[Google Play app]<br/>
+# Google Play app
 <a href='https://play.google.com/store/apps/details?id=com.kimchangyoun.rootbeerFresh.sample'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width="250"/></a>
 
-[Development environment]<br/>
+# Development environment
+
 Builds on the latest Android Studio 3.3 and NDK.
 
-[contribute]<br/>
+# Contribute
+
 If you have a new and better creative way, please leave your PR in any case.
 
-[Disclaimer and limitations]<br/>
+# Disclaimer and limitations
+
 Sometimes the detection method of RootbeerFresh may not work correctly.
+
 When RootbeerFresh is not sure if the device is rooted, it displays a '*' next to the rooted detection message.
 
-[Library]<br/>
+# Library
+
 RootbeerFresh comes with a library.
+
 You can use the library in the following ways:
 
 ```java
@@ -43,7 +50,8 @@ if (rootBeer.isRooted()) {
 ```
 
 Note that sometimes the isRooted () method may return false positives.
-This is because some device manufacturers release BusyBox in the device's Rom.
+
+This is because some device manufacturers release BusyBox in the device's rom.
 
 If you do not want to detect the BusyBox, use the following example code.
 
@@ -51,7 +59,7 @@ If you do not want to detect the BusyBox, use the following example code.
 rootBeer.isRootedWithoutBusyBoxCheck()
 ```
 
-[Dependency]<br/>
+# Dependency
 Available on [maven central](https://search.maven.org/#search%7Cga%7C1%7Ca%3A%22rootbeerFresh-lib%22), to include using Gradle just add the following:
 
 ```java
@@ -62,10 +70,10 @@ dependencies {
 
 Or use this [Jitpack.io link](https://jitpack.io/#kimchangyoun/rootbeerFresh)
 
-[Licence]<br/>
+# License
 Apache License, Version 2.0
 
-    Copyright (C) 2019, ChangYoun Kim
+    Copyright (C) 2024, ChangYoun Kim
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
