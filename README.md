@@ -1,4 +1,4 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/56a3e8f39388480e809caab60c5c28da)](https://www.codacy.com/app/KimChangYoun/rootbeerFresh?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KimChangYoun/rootbeerFresh&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/cba8fd0874ac4f569f4f880e473cbac9?branch=dev)](https://www.codacy.com/app/KimChangYoun/rootbeerFresh?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KimChangYoun/rootbeerFresh&amp;utm_campaign=Badge_Grade)
 <img src="https://travis-ci.org/travis-ci/travis-web.svg?branch=master">
 <br/><br/>
 Enjoy the latest Magisk and MagiskHide Detection RootBeerFresh!!
